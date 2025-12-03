@@ -1,4 +1,4 @@
-from collections import defaultdict
+from collections import defaultdict, deque
 
 def dfs(adj_map, target, time_left, root_node, prob) -> float:
    # Handle the leaf node or time - elapsed
